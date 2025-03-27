@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body { 
+  background-color: black;
+}
+
+.list-item {
+  @apply hover:opacity-95 text-[1.2rem] font-normal  cursor-pointer rounded-4xl md:w-fit p-2 flex items-center gap-4 transition-all duration-200;
+}
+.list-icon{
+  @apply flex items-center lg:py-0.5 gap-4 lg:pr-5 
+}
+
+.twitter-theme{
+  color:#181818 ;
+
+}
+.twitter-hover:hover{
+  background-color: #181818;
+}
+.twitter-border-theme{
+  color: #55585c;
+}
+
+.twitter-hover2:hover{
+  background-color: #080808;
+}
