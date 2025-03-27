@@ -1,13 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import PublicPrivate from './PublicPrivate'
 import TweetOptionList from './TweetOptionList'
 import SubmitTweet from './SubmitTweet'
 const InputCard = () => {
+
+  
   const [isClicked,setIsClicked] = useState(false) 
   function handleClick(){
-   console.log("I got Clicked Lol") 
    setIsClicked(true)
   }
+  useEffect(() => {
+    console.log("Rendering ....")
+  })
   return (
     <div className=" flex gap-4   mt-3 px-2">
     <img src="https://pbs.twimg.com/profile_images/1831327452888449024/h9Q7y6Es_400x400.jpg" alt="profile-img" className="w-12 h-12 rounded-full" />
