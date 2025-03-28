@@ -3,7 +3,8 @@ import { GoFileMedia } from "react-icons/go";
 import { MdOutlineGifBox } from "react-icons/md";
 import { FaPollH } from "react-icons/fa";
 import { BsEmojiSmile } from "react-icons/bs";
-import { RiCalendarScheduleLine } from "react-icons/ri";
+import { RiCalendarLine } from "react-icons/ri";
+
 import { MdLocationPin } from "react-icons/md";
 
 const TweetOptionList = () => {
@@ -38,7 +39,7 @@ const TweetOptionList = () => {
             <BsEmojiSmile />
           </li>
           <li className = "text-md cursor-pointer md:block hidden hover:bg-gray-900 p-2 rounded-full transition-all duration-200">
-            <RiCalendarScheduleLine />
+            <RiCalendarLine />
           </li>
           <li className = "text-md cursor-pointer hover:bg-gray-900 p-2 rounded-full transition-all duration-200">
             <MdLocationPin />
